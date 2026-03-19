@@ -7,7 +7,7 @@ import joblib
 st.title("Extreme Rainfall Prediction App")
 st.write("Predict whether a day is likely to be an extreme rainfall day.")
 
-model = joblib.load("Apilli best model.joblib")
+model = joblib.load("Apilli_best_model.joblib")
 
 st.sidebar.header("Input Daily Weather Features")
 
